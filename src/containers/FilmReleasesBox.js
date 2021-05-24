@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import FilmReleasesList from '../components/FilmReleasesList';
 import ImdbLink from '../containers/ImdbLink';
 
+// useState
 const FilmReleasesBox = () => {
 
     const [films, setFilms] = useState(
